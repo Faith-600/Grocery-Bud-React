@@ -1,0 +1,97 @@
+*{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.maincontainer{
+  height: 200px;
+  width: 500px;
+  background-color:white;
+  border-style: outset;
+  margin: auto;
+  margin-top: 100px;
+  border-bottom: none;
+}
+
+
+h3{
+  text-align: center;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+
+.inputdiv{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+ }
+
+.input{
+  width:300px;
+  background-color: white;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.formdiv{
+  background-color: white;
+  }
+
+  .firstbtn{
+    border-radius: 5px;
+    background-color:  hsla(162, 100%, 45%, 0.782);
+    color: hsl(0, 0%, 95%);
+  }
+
+  .firstbtn:hover{
+    background-color:  hsla(162, 100%, 25%, 0.802);
+    color: white;
+  }
+
+  .secondcontainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+.secondbtn{
+ height: 25px;
+ margin-top:10px ;
+ margin-right: 10px;
+ border-radius: 20px;
+ background-color:hsl(162, 100%, 45%) ;
+}
+
+
+
+.linethrough{
+  text-decoration: line-through ;
+}
+
+.alert{
+  text-align: center;
+  width:400px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  align-items: center;
+  
+}
+
+.alert-danger{
+  color:red;
+  height: 50px;
+  width: 280px;
+  
+ 
+}
+
+.alert-success{
+  color:green;
+  height: 50px;
+  width: 280px;
+}
+
+
+
